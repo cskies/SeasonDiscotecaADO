@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Season.Discoteca.Winforms", "Season.Discoteca.Winforms\Season.Discoteca.Winforms.csproj", "{0F4D1C95-EBE7-4B5E-97FE-8E633AAE19DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{C7A85755-F760-436A-8A6B-BAEBF23DF259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Season.Discoteca.Dominio", "Season.Discoteca.Dominio\Season.Discoteca.Dominio.csproj", "{B16A03A2-D0B0-4D0D-BB0D-14AE3A5F24F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Acesso Dados", "Acesso Dados", "{D9B1F4D2-D8F4-453D-8D4F-AC6F7BAC1E9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comum", "Comum", "{11304DA1-3FFB-4109-9B0E-2C94D782A449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Season.Comum.Fabricas.ADONET", "Season.Comum.Fabricas.ADONET\Season.Comum.Fabricas.ADONET.csproj", "{F83DDEEA-84CB-4D7E-84BE-A7F4E5E3480B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Season.Comum.DAO.Interfaces", "Season.Comum.DAO.Interfaces\Season.Comum.DAO.Interfaces.csproj", "{3AE69BB2-DE8A-48A9-A5AE-0EA861B517B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Season.Discoteca.AcessoDados.ADONET", "Season.Discoteca.AcessoDados.ADONET\Season.Discoteca.AcessoDados.ADONET.csproj", "{3F6AE544-831C-44DD-B320-97EF7FE8A78C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorios", "Repositorios", "{38F9CD22-C18B-432A-9143-CD0403B7562E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comum", "Comum", "{44A3BE73-C4B7-4E4A-9957-E692532BC287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Season.Repositoris.Comum", "Season.Repositoris.Comum\Season.Repositoris.Comum.csproj", "{3EAB2259-1C4E-47D2-B427-250496689E69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Season.Discoteca.Repositorios", "Season.Discoteca.Repositorios\Season.Discoteca.Repositorios.csproj", "{A8425AA3-65B7-45FA-BB84-FCEBEABB1E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Season.Discoteca.AcessoDados.Entity", "Season.Discoteca.AcessoDados.Entity\Season.Discoteca.AcessoDados.Entity.csproj", "{3EAC4506-16F5-4154-BAA3-B513513184FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F4D1C95-EBE7-4B5E-97FE-8E633AAE19DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4D1C95-EBE7-4B5E-97FE-8E633AAE19DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4D1C95-EBE7-4B5E-97FE-8E633AAE19DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4D1C95-EBE7-4B5E-97FE-8E633AAE19DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16A03A2-D0B0-4D0D-BB0D-14AE3A5F24F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16A03A2-D0B0-4D0D-BB0D-14AE3A5F24F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16A03A2-D0B0-4D0D-BB0D-14AE3A5F24F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16A03A2-D0B0-4D0D-BB0D-14AE3A5F24F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83DDEEA-84CB-4D7E-84BE-A7F4E5E3480B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83DDEEA-84CB-4D7E-84BE-A7F4E5E3480B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83DDEEA-84CB-4D7E-84BE-A7F4E5E3480B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83DDEEA-84CB-4D7E-84BE-A7F4E5E3480B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE69BB2-DE8A-48A9-A5AE-0EA861B517B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE69BB2-DE8A-48A9-A5AE-0EA861B517B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE69BB2-DE8A-48A9-A5AE-0EA861B517B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE69BB2-DE8A-48A9-A5AE-0EA861B517B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F6AE544-831C-44DD-B320-97EF7FE8A78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6AE544-831C-44DD-B320-97EF7FE8A78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6AE544-831C-44DD-B320-97EF7FE8A78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6AE544-831C-44DD-B320-97EF7FE8A78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAB2259-1C4E-47D2-B427-250496689E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAB2259-1C4E-47D2-B427-250496689E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAB2259-1C4E-47D2-B427-250496689E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAB2259-1C4E-47D2-B427-250496689E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8425AA3-65B7-45FA-BB84-FCEBEABB1E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8425AA3-65B7-45FA-BB84-FCEBEABB1E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8425AA3-65B7-45FA-BB84-FCEBEABB1E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8425AA3-65B7-45FA-BB84-FCEBEABB1E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAC4506-16F5-4154-BAA3-B513513184FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAC4506-16F5-4154-BAA3-B513513184FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAC4506-16F5-4154-BAA3-B513513184FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAC4506-16F5-4154-BAA3-B513513184FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B16A03A2-D0B0-4D0D-BB0D-14AE3A5F24F9} = {C7A85755-F760-436A-8A6B-BAEBF23DF259}
+		{11304DA1-3FFB-4109-9B0E-2C94D782A449} = {D9B1F4D2-D8F4-453D-8D4F-AC6F7BAC1E9B}
+		{F83DDEEA-84CB-4D7E-84BE-A7F4E5E3480B} = {11304DA1-3FFB-4109-9B0E-2C94D782A449}
+		{3AE69BB2-DE8A-48A9-A5AE-0EA861B517B0} = {11304DA1-3FFB-4109-9B0E-2C94D782A449}
+		{3F6AE544-831C-44DD-B320-97EF7FE8A78C} = {D9B1F4D2-D8F4-453D-8D4F-AC6F7BAC1E9B}
+		{44A3BE73-C4B7-4E4A-9957-E692532BC287} = {38F9CD22-C18B-432A-9143-CD0403B7562E}
+		{3EAB2259-1C4E-47D2-B427-250496689E69} = {44A3BE73-C4B7-4E4A-9957-E692532BC287}
+		{A8425AA3-65B7-45FA-BB84-FCEBEABB1E9F} = {38F9CD22-C18B-432A-9143-CD0403B7562E}
+		{3EAC4506-16F5-4154-BAA3-B513513184FC} = {D9B1F4D2-D8F4-453D-8D4F-AC6F7BAC1E9B}
+	EndGlobalSection
+EndGlobal
